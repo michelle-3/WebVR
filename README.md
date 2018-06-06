@@ -1,86 +1,37 @@
-## Getting Started
+Welcome to Glitch
+=================
 
-There are two easy options for obtaining this A-Frame scene. It's then up to you to make it your own!
+Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
 
-### <sup>Option 1:</sup> Download the ZIP kit 📦
+**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
 
-[<img src="http://i.imgur.com/UVPZoM0.png" width="200">](https://github.com/aframevr/aframe-boilerplate/archive/master.zip)
-
-After you have __[downloaded and extracted this `.zip` file](https://github.com/Peachtree-Corners-Vetereans-Monument/aframe-boilerplate/archive/master.zip)__ containing the contents of this repo, open the resulting directory, and you'll be have your scene ready in these few steps:
-
-    npm install && npm start
-    open http://localhost:3000/
-
-<hr>
-
-### <small><sup>Option 2:</sup> Fork this Git repo 🍴🐙
-
-Alternatively, you can __[fork this repo](https://github.com/Peachtree-Corners-Vetereans-Monument/aframe-boilerplate/fork)__ to get started, if you'd like to maintain a Git workflow.
-
-After you have __[forked this repo](https://github.com/Peachtree-Corners-Vetereans-Monument/aframe-boilerplate/fork)__, clone a copy of your fork locally and you'll be have your scene ready in these few steps:
-
-    git clone https://github.com/Peachtree-Corners-Vetereans-Monument/aframe-boilerplate.git
-    cd aframe-boilerplate && rm -rf .git && npm install && npm start
-    open http://localhost:3000/
-
-> :iphone: **Mobile pro tip:** Upon starting the development server, the URL will be logged to the console. Load that URL from a browser on your mobile device. (If your mobile phone and computer are not on the same LAN, consider using [ngrok](https://ngrok.com/) for local development and testing. [Browsersync](https://www.browsersync.io/) is also worth a gander.)
-
-<hr>
-
-### <small><sup>Option 3:</sup> Fork this CodePen example 🍴💾✒️
-
-Or, you can simply __[fork this CodePen example](https://codepen.io/seandunlap/full/mLKexe/)__ to dive right in. Enjoy!
+Find out more [about Glitch](https://glitch.com/about).
 
 
-## Publishing your scene
+Your Project
+------------
 
-If you don't already know, GitHub offers free and awesome publishing of static sites through __[GitHub Pages](https://pages.github.com/)__.
+### ← README.md
 
-To publish your scene to your personal GitHub Pages:
+That's this file, where you can tell people what your cool website does and how you built it.
 
-    npm run deploy
+### ← index.html
 
-And, it'll now be live at __http://`your_username`.github.io/__ :)
+Where you'll write the content of your website. 
 
-<hr>
+### ← style.css
 
-To know which GitHub repo to deploy to, the `deploy` script first looks at the optional [`repository` key](https://docs.npmjs.com/files/package.json#repository) in the [`package.json` file](package.json) (see [npm docs](https://docs.npmjs.com/files/package.json#repository) for sample usage). If the `repository` key is missing, the script falls back to using the local git repo's remote origin URL (you can run the local command `git remote -v` to see all your remotes; also, you may refer to the [GitHub docs](https://help.github.com/articles/about-remote-repositories/) for more information).
+CSS files add styling rules to your content.
 
-<hr>
+### ← script.js
 
-## Still need Help?
+If you're feeling fancy you can add interactivity to your site with JavaScript.
 
-### Installation
+### ← assets
 
-First make sure you have Node installed.
+Drag in `assets`, like images or music, to add them to your project
 
-On Mac OS X, it's recommended to use [Homebrew](http://brew.sh/) to install Node + [npm](https://www.npmjs.com):
+Made by [Fog Creek](https://fogcreek.com/)
+-------------------
 
-    brew install node
-
-To install the Node dependencies:
-
-    npm install
-
-
-### Local Development
-
-To serve the site from a simple Node development server:
-
-    npm start
-
-Then launch the site from your favourite browser:
-
-[__http://localhost:3000/__](http://localhost:3000/)
-
-If you wish to serve the site from a different port:
-
-    PORT=8000 npm start
-
-## Contributing
-
-Get involved! Check out the [Contributing Guide](CONTRIBUTING.md) for how to get started
-
-## License
-
-This program is free software and is distributed under an [MIT License](LICENSE).
+\ ゜o゜)ノ
